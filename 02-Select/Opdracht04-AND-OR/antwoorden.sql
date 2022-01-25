@@ -38,4 +38,4 @@ SELECT * FROM players WHERE nationality = "Netherlands" AND club = "Ajax" OR clu
 SELECT * FROM players WHERE nationality = "England" AND age > 20 AND wage > 100000;
 
 -- Opdracht 15
-SELECT name, age, nationality FROM players WHERE nationality = "Argentina" OR nationality = "brazil" AND age > 25;
+SELECT name, age, nationality FROM players WHERE nationality = "Argentina" OR nationality = "brazil" AND age > 25;/
