@@ -10,19 +10,19 @@ SELECT * FROM jaar2015 WHERE country = "Nederland";
 SELECT * FROM jaar2016 WHERE country = "Nederland";
 
 -- Opdracht 5
-SELECT * FROM jaar2015 WHERE region = "North america";
+SELECT country FROM jaar2015 WHERE region = "North america";
 
 -- Opdracht 6 
-SELECT * FROM jaar2016 WHERE rank = 25;
+SELECT country FROM jaar2016 WHERE rank = 25;
 
 -- Opdracht 7 
-SELECT * FROM jaar2016 WHERE score > 7087;
+SELECT country, region FROM jaar2016 WHERE score > 7087;
 
 -- Opdracht 8
 SELECT * FROM jaar2016 WHERE country, regio <= 5;
 
 -- Opdracht 9
-SELECT * FROM jaar2015 WHERE country, score = "ireland";
+SELECT country, score FROM jaar2015 WHERE country = "ireland";
 
 -- Opdracht 10 
-SELECT * FROM jaar2016 WHERE region = "Latin America and Caribbean";
+SELECT country FROM jaar2016 WHERE region = "Latin America and Caribbean";
