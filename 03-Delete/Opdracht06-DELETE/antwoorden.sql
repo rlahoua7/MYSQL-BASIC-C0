@@ -7,4 +7,4 @@ DELETE FROM players WHERE nationality = "Belgium" AND club = "FC Barcelona";
 -- Opdracht 4
 DELETE FROM players WHERE age >= 38; 
 -- Opdracht 5
-DELETE FROM players WHERE id = 167905 OR 169595;
+DELETE FROM players WHERE id = 167905 OR 169595;.
